@@ -1,0 +1,106 @@
+body {
+    font-family: Consolas;
+    margin: 0;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #e04c00;
+}
+
+h2 {
+    text-align: center;
+    color: #e04c00;
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+tr{
+    width: 100%;
+}
+
+th,
+td {
+    width: 2%;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #e04c00;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.quantity-btn {
+    background-color: #e04c00;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.quantity-btn:hover {
+    background-color: #b83c00;
+}
+
+td {
+    font-size: 18px;
+}
+
+form {
+    display: inline;
+}
+
+button {
+    background-color: white;
+}
+
+.total-general {
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-right: 2%;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pay-btn {
+    background-color: #e04c00;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.pay-btn:hover {
+    background-color: #c03b00;
+}

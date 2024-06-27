@@ -1,0 +1,127 @@
+.menu {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    color: #e04c00;
+    font-family: Consolas;
+    font-size: 17px;
+    margin-left: 10%;
+    height: 64px;
+}
+
+.entete.fixed {
+    position: fixed;
+    top: 0;
+}
+
+.menu_b {
+    margin-right: 20px;
+    cursor: pointer;
+    height: 40%;
+    flex: 1;
+    padding: 1%;
+    font-size: 130%;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+.menu_b:hover {
+    transform: scale(1.4);
+}
+
+.menu_b:hover {
+    cursor: pointer;
+    transition: .5s;
+}
+
+body {
+    margin: 0;
+}
+
+#imgg {
+    transition: filter 0.2s ease-in-out;
+}
+
+#imgg:hover {
+    filter: blur(3px);
+}
+
+h1 {
+    text-align: center;
+    color: #776bff;
+    font-family: Consolas;
+}
+
+h2 {
+    color: #e04c00;
+    font-size: 35px;
+    font-family: Consolas;
+    text-align: center;
+}
+
+.articles h2 {
+    margin-left: 1%;
+}
+
+h3 {
+    font-size: small;
+}
+
+.entete {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 5px;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: top 0.3s;
+}
+
+#logo {
+    width: 64px;
+    height: 64px;
+}
+
+#haut {
+    width: 100%;
+    margin-top: 3%;
+}
+
+#faq {
+    width: 60%;
+    margin: 2% auto;
+    font-family: DejaVu Sans Mono, monospace;
+}
+
+.question {
+    background: #ffffff44;
+    padding: 1%;
+    margin-bottom: 1%;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.question:hover {
+    background: #f0f0f0;
+}
+
+.question h3 {
+    margin: 0;
+    font-size: 120%;
+    color: #e04c00;
+}
+
+.answer {
+    display: none;
+    padding: 1%;
+    font-size: 100%;
+}
+
+#page {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin-top: 20px;
+}

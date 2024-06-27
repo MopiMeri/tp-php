@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+}
+
+.menu {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    color: #e04c00;
+    font-family: Consolas;
+    font-size: 17px;
+    margin-left: 10%;
+    height: 64px;
+}
+
+.entete.fixed {
+    position: fixed;
+    top: 0;
+}
+
+.menu_b {
+    margin-right: 20px;
+    cursor: pointer;
+    height: 40%;
+    flex: 1;
+    padding: 1%;
+    font-size: 130%;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+.menu_b:hover {
+    transform: scale(1.4);
+    cursor: pointer;
+    transition: .5s;
+}
+
+#imgg {
+    transition: filter 0.2s ease-in-out;
+}
+
+#imgg:hover {
+    filter: blur(3px);
+}
+
+.entete {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 5px;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: top 0.3s;
+}
+
+#logo {
+    width: 64px;
+    height: 64px;
+}
+
+#haut {
+    width: 100%;
+    margin-top: 3%;
+}
+
+.cart-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.cart-button:hover {
+    background-color: #f0f0f0;
+}
+
+.cart-button svg {
+    width: 24px;
+    height: 24px;
+}
+
+h2 {
+    color: #e04c00;
+    font-size: 35px;
+    font-family: Consolas;
+    text-align: center;
+}

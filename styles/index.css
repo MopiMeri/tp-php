@@ -1,0 +1,88 @@
+#logo {
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+    animation: rotateAndScale 1.5s linear infinite;
+}
+
+#logo_b {
+    margin-left: 8%;
+    width: 64px;
+    height: 64px;
+    transition: height 0.3s ease, width 0.3s ease;
+}
+
+#logo_b:hover {
+    height: 75px;
+    width: 75px;
+    cursor: pointer;
+}
+
+#logo1 {
+    width: 500px;
+    height: 500px;
+}
+
+.pres {
+    margin-top: 5%;
+    height: 77%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ligne {
+    margin-left: 5%;
+    width: 49%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ligne>* {
+    margin-bottom: 20px;
+}
+
+.logoo {
+    width: 49%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+body {
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 50px;
+    margin: 0;
+    text-align: center;
+    color: #e04c00;
+}
+
+span {
+    margin: 0;
+    font-family: Consolas;
+    color: #305a85;
+    font-size: 150%;
+}
+
+.articles p {
+    font-size: 120%;
+    margin: 0;
+}
+
+li:hover {
+    cursor: pointer;
+    width: 30px;
+}
+
+.bordo {
+    padding-top: 0;
+}
+
+img {
+    width: 70%;
+}
